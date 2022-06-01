@@ -2,7 +2,7 @@
 This repository hosts anything related to the ajolotes team architectural katas contest
 <table>
 <tr>
-<td>
+<td width="30%">
 <img src="axolotl.jpg" alt="axolotl, our team´s mascot" width="200"/>
 </td>
 <td>
