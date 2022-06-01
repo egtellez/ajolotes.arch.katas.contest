@@ -6,19 +6,31 @@ This repository hosts anything related to the ajolotes team architectural katas 
 * Non-Profit User --> Interacts with the Platform
 * Community Leader/Mentor --> Assigns non-profit assignments / role based training assignment / schedules meeting with non-profit
 
-* Administrator --> Require community configuration / specifying community leader 
+* Administrator --> Require community configuration / specifying community leader / Analytics
 * Candidate --> Registration / engagement
 * Career Mentor --> Uploads roadmap to system, updates assignment
+
+How many candidates for each career mentor? Review examples from Omar
+# 1 Mentor - 3 mentees (Full time job?)  How many people can a mentor mentor
+# Application exists to manage non-profits?
 
 ## Architecture characteristics identified
 
 * Ease of Use
-* Authentication/Authorization
-* Privacy 
-* Legal
 * Robustness
 * Performance
 * Availability
+* Simplicity
+
+(To expand the system - Not initially)
+* Scalability 
+* Elasticity
+* Reliability
+* Customizability 
+
+* Authentication/Authorization
+* Privacy 
+* Legal
 
 
 ### Ease of Use Architecture considerations - UX Focus
