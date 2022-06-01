@@ -1,7 +1,15 @@
 # Architectural Katas Contest Summer 2022
 This repository hosts anything related to the ajolotes team architectural katas contest
-
+<table>
+<tr>
+<td>
 <img src="axolotl.jpg" alt="axolotl, our team´s mascot" width="200"/>
+</td>
+<td>
+Ajolotes are used in laboratories to study a superpower: regenerating their limbs, lungs, heart, jaws, spines, and even parts of their brain! Scientists have found that axolotls can regrow a new limb five times perfectly, in a few weeks—without even a scar.
+</td>
+</tr>
+</table>
 
 # TODO:
 > - Define Architecture style (Monolith vs Distributed) Which model from these options?
