@@ -1,6 +1,8 @@
 # Architectural Katas Contest Summer 2022
 This repository hosts anything related to the ajolotes team architectural katas contest
 
+<img src="axolotl.jpg" alt="axolotl, our team´s mascot" width="200"/>
+
 # TODO:
 > - Define Architecture style (Monolith vs Distributed) Which model from these options?
 > - Continue Visio Flow Diagram for Scenario: Career Case Management Functionality & Process
