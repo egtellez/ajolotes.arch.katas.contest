@@ -20,13 +20,6 @@ Ajolotes are used in laboratories to study a superpower: regenerating their limb
 * Candidate --> Registration / engagement
 * Career Mentor --> Uploads roadmap to system, updates assignment
 
-### Questions
-- How many candidates for each career mentor? Review examples from Omar
-  - E.G. 1 Mentor - 3 mentees (Full time job?)  How many people can a mentor mentor
-- Application exists to manage non-profits?
-  - Some options for non profits: https://connecteam.com/nonprofit-apps/
-
-
 ## Architecture characteristics identified
 
 - Ease of Use.
