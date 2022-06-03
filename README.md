@@ -1,24 +1,60 @@
 # Architectural Katas Contest Summer 2022
 This repository hosts anything related to the ajolotes team architectural katas contest
+<table>
+<tr>
+<td width="30%">
+<img src="axolotl.jpg" alt="axolotl, our team´s mascot" width="200"/>
+</td>
+<td>
+Ajolotes are used in laboratories to study a superpower: regenerating their limbs, lungs, heart, jaws, spines, and even parts of their brain! Scientists have found that axolotls can regrow a new limb five times perfectly, in a few weeks—without even a scar.
+</td>
+</tr>
+</table>
+
+# TODO:
+> - Define Architecture style (Monolith vs Distributed) Which model from these options?
+> - Continue Visio Flow Diagram for Scenario: Career Case Management Functionality & Process
+> - Identify components (Flow diagrams / Event storming / any other technique)
+> - Upload diagrams (Architecture style / Components / Support diagrams. E.G. Flow diagrams / Event storming C4, etc..)
+> - Write ADRs (Architecture Decision records)
+> - Better organizing repo structure / folders / documents / sections
+> - Any other activity the team identified
 
 ### Users Identified
 
 * Non-Profit User --> Interacts with the Platform
 * Community Leader/Mentor --> Assigns non-profit assignments / role based training assignment / schedules meeting with non-profit
 
-* Administrator --> Require community configuration / specifying community leader 
+* Administrator --> Require community configuration / specifying community leader / Analytics
 * Candidate --> Registration / engagement
 * Career Mentor --> Uploads roadmap to system, updates assignment
 
+### Questions
+- How many candidates for each career mentor? Review examples from Omar
+  - E.G. 1 Mentor - 3 mentees (Full time job?)  How many people can a mentor mentor
+- Application exists to manage non-profits?
+  - Some options for non profits: https://connecteam.com/nonprofit-apps/
+
+
 ## Architecture characteristics identified
 
-* Ease of Use
-* Authentication/Authorization
-* Privacy 
-* Legal
-* Robustness
-* Performance
-* Availability
+- Ease of Use
+- Robustness
+- Performance
+- Availability (How to manage maintenance / load balancers / database mirroring / backups)
+- Simplicity (Related to ease of use / Reated to workflows)
+- Authentication/Authorization (Use standards)
+- Privacy (Defining privacy policies, making them available to customers) / Protecting data (Encryption at rest / Traffic encryption / etc..)
+- Legal (Providing legal notice from the site)
+- Integration (Authentication services authentication)
+- Deployability (Continuous delivery / Multiple environments / dev / uat / prod)
+- Testability (TDD, Functional tests, Integration tests, etc) Multiple environments before hitting prod
+
+(To expand the system - Not initially)
+- Scalability 
+- Elasticity
+- Reliability
+- Customizability 
 
 
 ### Ease of Use Architecture considerations - UX Focus
@@ -27,24 +63,27 @@ Front-end experience
 
 The portal will be accessed as a web application that follows HTML 5.0 Standards. Will provide a reactive UI that is responsive to the users. Will use a framework such as React, Angular or Vue to enable the front-end experience.
 
+
+
 Back-end experience
 
 - Performance/Fast response to the user
-- Reliability/Robustness (Fail gracefully)
-- 
+- Robustness (Fail gracefully)
+
 
 General UX guidelines: 
 
 * Use simple language that people can understand
-* Step by step processes, and mechanisms to start from where left
+* Workflow: Step by step processes, and mechanisms to start from where left
 * Provide guidance through images / videos, etc about system features
 * Provide online support for people that needs help/clarification
         Online chat
         Chatbot
         Call with support person
 * Support all current commercial browsers: Chrome, Safari, Edge, Firefox
+* Support different devices (phone / tablet / )
 * Atomic operations / Easy to process and retrieve
- 
+
 
  Will support enhanced experience for people with disabilities:
 * People with color blindness - Use right contrast for site colors and texts
@@ -52,6 +91,9 @@ General UX guidelines:
 * People who is hard of hearing - Add captions if video content is provided or audio content is provided
 * People who is blind - Use friendly html structure so the screen readers are able to interpret the app. Also include alt text on images. 
 * People with dislexia / attention deficit: Provide different ways to navigate the site / find information, avoid unnecessary distracting content
+
+
+## Examples of possible components / technologies
 
 ### Data Storage
 
@@ -74,12 +116,5 @@ We are assumming that most of the non-profit organizations have already a facebo
 
 Advantages: Non-profits can link their facebook/instagram/google/twitter/etc profiles into the portal
 
-Trade-offf: Requires following guidelines from third party companies. Potentially multiple guidelines if allowing different services to authenticate
-
-
-
-
-
-
-
+Trade-off: Requires following guidelines from third party companies.Potentially multiple guidelines if allowing different services to authenticate
 
