@@ -118,11 +118,3 @@ Advantages: Non-profits can link their facebook/instagram/google/twitter/etc pro
 
 Trade-off: Requires following guidelines from third party companies.Potentially multiple guidelines if allowing different services to authenticate
 
-
-
-
-
-
-
-
-
