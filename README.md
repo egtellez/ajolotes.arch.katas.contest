@@ -87,8 +87,8 @@ General UX guidelines
 ## Overall Architecture
 
 We are proposing a monolithic architecture for this application for the following reasons:
-1. The business logic is relatively simplee. 
-2. The user load is expected to be relatively low, with estimated concurrent users in the low thousands maximum.
+1. The business logic is relatively simple. 
+2. The user load is expected to be low, with estimated concurrent users in the low-thousands maximum.
 3. User interactions will be low bandwidth, with the largest potential bandwidth items being document files. Large multimedia files will not be used, for example.
 4. Design, deployment, and maintenance will be simpler and more cost effective.
 
