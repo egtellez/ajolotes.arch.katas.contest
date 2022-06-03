@@ -43,19 +43,19 @@ Ajolotes are used in laboratories to study a superpower: regenerating their limb
 
 ### Ease of Use Architecture considerations - UX Focus
 
-Front-end experience
+#### Front-end experience
 
 The portal will be accessed as a web application that follows HTML 5.0 Standards. Will provide a reactive UI that is responsive to the users. Will use a framework such as React, Angular or Vue to enable the front-end experience.
 
 
 
-Back-end experience
+#### Back-end experience
 
 - Performance/Fast response to the user
 - Robustness (Fail gracefully)
 
 
-General UX guidelines
+#### General UX guidelines
 
 * Use simple language that people can understand.
 * Workflow: Step by step processes, and mechanisms to start from where the users left off.
@@ -90,12 +90,12 @@ We are proposing a monolithic architecture for this application for the followin
 We propose using a NoSQL Database, such as MongoDB. 
 *Architectural Decision Record: Do not have enough details about the data model and this allows to iterate the data model and helps iterate through a final solution. 
 
-Advantages
+#### Advantages
 
 You can quickly make changes to the data model to support new features for the system. E.G. Adding new attributes to a candidate or a non-profit or enhancing the capabilities data model.
 
 
-Trade-offs
+#### Trade-offs
 
 NoSQL databases don't have data integrity because the model from one iteration to the other can be entirely different.
 
