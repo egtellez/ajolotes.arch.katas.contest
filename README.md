@@ -104,7 +104,7 @@ You can quickly make changes to the data model to support new features for the s
 
 Trade-offs
 
-NoDoesn´t have data integrity because the model from one iteration to the other can be entirely different.
+NoSQL databases don't have data integrity because the model from one iteration to the other can be entirely different.
 
 
 ### Authentication/Authorization
