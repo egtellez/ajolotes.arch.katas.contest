@@ -83,8 +83,8 @@ We are proposing a monolithic architecture for this application for the followin
 1. The business logic is relatively simple. 
 2. The user load is expected to be low, with estimated concurrent users in the low-thousands maximum.
 3. User interactions will be low bandwidth, with the largest potential bandwidth items being document files. Large multimedia files will not be used, for example.
-4. Design, deployment, and maintenance will be simpler and more cost effective for a non-profit setting.
-5. Due to common workflow elements, we will be able to reuse common code components.
+4. Design, deployment, and maintenance will be simpler and more cost effective.
+5. Non-profit and Candidate code logic reuse due to common registration and intake processes
 
 ### Data Storage
 
